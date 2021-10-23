@@ -31,7 +31,7 @@ const userSchema = mongoose.Schema({
     }
 })
 
-// 스키마를 모델에 감싸 준다
+// 스키마를 모델로 감싸 준다
 const User = mongoose.model('User', userSchema);
 
 module.exports = {User};
